@@ -1,4 +1,30 @@
 @media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* Garantir que o body ocupa 100% da largura */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Estilo de seção para ocupar toda a largura */
+section {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilo do rodapé para garantir que ocupa toda a largura */
+footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
     header {
         padding: 10px;
         font-size: 1.5rem;
